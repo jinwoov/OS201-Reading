@@ -62,13 +62,13 @@ NAME="Jinf"
 ####
 
 # FILE CONDITION
-# FILE="test.txt"
-# if [ -e "$FILE" ]
-# then
-#     echo "$FILE exists"
-# else
-#     echo "$FILE is NOT a EXIST"
-# fi
+FILE="test.txt"
+if [ -e "$FILE" ]
+then
+    echo "$FILE exists"
+else
+    echo "$FILE is NOT a EXIST"
+fi
 
 
 #####
@@ -87,57 +87,57 @@ NAME="Jinf"
 # Case statement
 
 # read -p "Are you 21 or over? Y/N " ANSWER
-# case "$ANSWER" in
-#     [yY] | [yY][eE][sS])
-#      echo "You can have a beer :)"
-#      ;;
-#     [nN] | [nN][oO])
-#      echo "Sorry no drinking"
-#      ;;
-#     *)
-#      echo "Please enter y/yes or n/no"
-#      ;;
-# esac
+case "$ANSWER" in
+    [yY] | [yY][eE][sS])
+     echo "You can have a beer :)"
+     ;;
+    [nN] | [nN][oO])
+     echo "Sorry no drinking"
+     ;;
+    *)
+     echo "Please enter y/yes or n/no"
+     ;;
+esac
 
 ## SIMPLE FOR Loop
-# NAMES="Jin Ally Mochi Kudo"
-# for NAME in $NAMES
-#     do
-#         echo "Hello $NAME"
-# done
+NAMES="Jin Ally Mochi Kudo"
+for NAME in $NAMES
+    do
+        echo "Hello $NAME"
+done
 
 # For loop to rename files
 # anything with text extension will be grabbed here
-# FILES=$(ls *.txt) 
-# New="new"
-# for FILE in $FILES
-#     do
-#         echo "Renaming $FILE to new-$FILE"
-#         mv $FILE $NEW-$FILE
-# done
+FILES=$(ls *.txt) 
+New="new"
+for FILE in $FILES
+    do
+        echo "Renaming $FILE to new-$FILE"
+        mv $FILE $NEW-$FILE
+done
 
 # WHILE loop - read through the file LINE BY LINE
 
-# LINE=1
-# while read -r CURRENT_LINE
-#     do
-#         echo "$LINE: $CURRENT_LINE"
-#         ((LINE++))
-# done < "./1.txt"
+LINE=1
+while read -r CURRENT_LINE
+    do
+        echo "$LINE: $CURRENT_LINE"
+        ((LINE++))
+done < "./1.txt"
 
 # Function
-# function sayHello() {
-#     echo "Hello World"
-# }
+function sayHello() {
+    echo "Hello World"
+}
 
-# sayHello
+sayHello
 
 # FUNCTION with PARAMS
-# function greet() {
-#     echo "Hello, I am $1 and I am $2"
-# }
+function greet() {
+    echo "Hello, I am $1 and I am $2"
+}
 
-# greet Jin Ally
+greet Jin Ally
 
 # Create a folder and write to a file
 mkdir Hello
