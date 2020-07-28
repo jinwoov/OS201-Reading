@@ -11,3 +11,4 @@
 [1. Reading: Shell Script](./Reading/Reading1.md)  
 [2. Reading: ITIL Service Management and Documentation](./Reading/Reading2.md)  
 [3. Reading: Introduction to Help Desk Support Roles](./Reading/Reading3.md)  
+[4. Reading: How to Troubleshoot – CompTIA A+ 220-902 – 5.5](./Reading/Reading4.md)  
