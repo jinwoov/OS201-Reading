@@ -26,4 +26,10 @@
 - Help desk: hardware to software and monitor 
 - identifying the need and values of the company is important for finding a service
 - inventory is needed for budget
-- 
+- Asset tag: unique value to identify which item it is. Each item has different item.
+- ITIL inventory list delegate to other people in your team. 
+- SOP: standard operating procedure.
+    - the procedure that are from beginning to the end.
+    - added efficiency
+    - you can follow along with people who lacks experience.
+    

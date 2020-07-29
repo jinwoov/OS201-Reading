@@ -24,7 +24,14 @@
 - Document finding
     - so you know how to address it next time
     - create a database so you can view anytime
+
+## From The Reading
 - Ask many question as possible and collect information
 - Do some investigation, if its multiple issues, break it down to different components
 - Start thinking what might've caused the problem
 - Then start developing theory, what might've caused the problem.
+- Then go down list and start from top, test out the theories that might've caused particular issue.
+- Make sure that you have plan B,C... incase original plan doesn't work out.
+- Once you apply the fix, test out the original problem to see same issue occurs. This could be accomplish through bringing the customer to test out the device.
+- Create a preventative measure to make sure that this problem doesn't arise next time.
+    - Document how you fixed that issue, so that you can apply that for next time.

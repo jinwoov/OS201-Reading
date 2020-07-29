@@ -18,4 +18,3 @@
     - Four sets are actively thinking, asking, changing perspectives and evaluating evidence or symptoms.
     - usually use flow chart to diagnose and assess the problem.
     - Critical thinking helps to evaluate a problem and compare it to past problems they've seen. 
-- 
