@@ -7,4 +7,4 @@
 - `Chrome Remote Desktop` is another way to access. 
 - Both person has to have chrome for this to work.
 - Skype is another tool for remote access as well as LogMeIn is another way to access.
-- Author suggests that Teamviewer is the best way to access since it is easy to use and has unattended access.
+- Author suggests that Teamviewer is the best way to access since it is easy to use and has unattended access. 
