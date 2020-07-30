@@ -13,7 +13,7 @@ function TOTEXTFILE(){
     ## Sub Heading
     echo "## $2" >> $FILE 
     EMPTYSPACE
-    ## calling sudo method to file
+    ## Appending system information to the file.
     sudo $1 $3 >> $FILE
     EMPTYSPACE
 }
@@ -23,8 +23,11 @@ function EMPTYSPACE(){
 }
 
 # MAIN (Calling all the operator)
+
 ## Header
 echo "# SYSTEM IMFORMATION #" >> $FILE
+
+## METHOD INVOCATION
 TOTEXTFILE lshw "Devices Available" -short 
 TOTEXTFILE free "Memory Space"
 TOTEXTFILE vmstat "VMSTAT"
@@ -36,5 +39,7 @@ TOTEXTFILE lsusb "USB list" -v
 TOTEXTFILE lspci "PCI sockets in tree form" -t
 TOTEXTFILE lspci "PCI sockets in dtails" -vmm
 TOTEXTFILE lsscsi "Hard Drive" -s
+## Renaming the file to add BIOS
 mv $FILE "system-report-BIOS.txt"
+
 # END
