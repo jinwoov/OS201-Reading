@@ -1,0 +1,421 @@
+# SYSTEM IMFORMATION #
+## Devices Available
+
+H/W path            Device      Class       Description
+=======================================================
+                                system      VirtualBox
+/0                              bus         VirtualBox
+/0/0                            memory      128KiB BIOS
+/0/1                            memory      16GiB System memory
+/0/2                            processor   Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz
+/0/100                          bridge      440FX - 82441FX PMC [Natoma]
+/0/100/1                        bridge      82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1.1          scsi1       storage     82371AB/EB/MB PIIX4 IDE
+/0/100/1.1/0.0.0    /dev/cdrom  disk        CD-ROM
+/0/100/2                        display     SVGA II Adapter
+/0/100/3            enp0s3      network     82540EM Gigabit Ethernet Controller
+/0/100/4                        generic     VirtualBox Guest Service
+/0/100/5                        multimedia  82801AA AC'97 Audio Controller
+/0/100/6                        bus         KeyLargo/Intrepid USB
+/0/100/6/1          usb1        bus         OHCI PCI host controller
+/0/100/6/1/1                    input       USB Tablet
+/0/100/7                        bridge      82371AB/EB/MB PIIX4 ACPI
+/0/100/d            scsi2       storage     82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]
+/0/100/d/0.0.0      /dev/sda    disk        107GB VBOX HARDDISK
+/0/100/d/0.0.0/1    /dev/sda1   volume      5220MiB Linux swap volume
+/0/100/d/0.0.0/2    /dev/sda2   volume      94GiB Extended partition
+/0/100/d/0.0.0/2/5  /dev/sda5   volume      94GiB EXT4 volume
+/0/3                            input       PnP device PNP0303
+/0/4                            input       PnP device PNP0f03
+
+## Memory Space
+
+              total        used        free      shared  buff/cache   available
+Mem:       16398076     2873164    10373420      274592     3151492    12950376
+Swap:       5345276           0     5345276
+
+## VMSTAT
+
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 10373444 136884 3014608    0    0    36    34  230  448  3  1 96  0  0
+
+## Processors
+
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              1
+Core(s) per socket:              4
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           158
+Model name:                      Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz
+Stepping:                        13
+CPU MHz:                         2592.004
+BogoMIPS:                        5184.00
+Hypervisor vendor:               KVM
+Virtualization type:             full
+L1d cache:                       128 KiB
+L1i cache:                       128 KiB
+L2 cache:                        1 MiB
+L3 cache:                        48 MiB
+NUMA node0 CPU(s):               0-3
+Vulnerability Itlb multihit:     KVM: Vulnerable
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Vulnerable
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, STIBP disabled, RSB filling
+Vulnerability Srbds:             Mitigation; TSX disabled
+Vulnerability Tsx async abort:   Mitigation; TSX disabled
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+
+## BIOS
+
+# dmidecode 3.2
+Getting SMBIOS data from sysfs.
+SMBIOS 2.5 present.
+10 structures occupying 450 bytes.
+Table at 0x000E1000.
+
+Handle 0x0000, DMI type 0, 20 bytes
+BIOS Information
+	Vendor: innotek GmbH
+	Version: VirtualBox
+	Release Date: 12/01/2006
+	Address: 0xE0000
+	Runtime Size: 128 kB
+	ROM Size: 128 kB
+	Characteristics:
+		ISA is supported
+		PCI is supported
+		Boot from CD is supported
+		Selectable boot is supported
+		8042 keyboard services are supported (int 9h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: innotek GmbH
+	Product Name: VirtualBox
+	Version: 1.2
+	Serial Number: 0
+	UUID: e686a39b-46f6-ff44-9bf7-a4c644c7d3af
+	Wake-up Type: Power Switch
+	SKU Number: Not Specified
+	Family: Virtual Machine
+
+Handle 0x0008, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: Oracle Corporation
+	Product Name: VirtualBox
+	Version: 1.2
+	Serial Number: 0
+	Asset Tag: Not Specified
+	Features:
+		Board is a hosting board
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 13 bytes
+Chassis Information
+	Manufacturer: Oracle Corporation
+	Type: Other
+	Lock: Not Present
+	Version: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+
+Handle 0x0007, DMI type 126, 42 bytes
+Inactive
+
+Handle 0x0005, DMI type 126, 15 bytes
+Inactive
+
+Handle 0x0006, DMI type 126, 28 bytes
+Inactive
+
+Handle 0x0002, DMI type 11, 7 bytes
+OEM Strings
+	String 1: vboxVer_6.1.12
+	String 2: vboxRev_139181
+
+Handle 0x0008, DMI type 128, 8 bytes
+OEM-specific Type
+	Header and Data:
+		80 08 08 00 04 8D 27 00
+
+Handle 0xFEFF, DMI type 127, 4 bytes
+End Of Table
+
+
+## IP Config
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:16:da:35 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 73009sec preferred_lft 73009sec
+    inet6 fe80::ccde:d2cc:10e8:8ceb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+## Block Devices
+
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0    55M  1 loop /snap/core18/1880
+loop1    7:1    0 240.8M  1 loop /snap/gnome-3-34-1804/24
+loop2    7:2    0    55M  1 loop /snap/core18/1754
+loop3    7:3    0  62.1M  1 loop /snap/gtk-common-themes/1506
+loop4    7:4    0 255.6M  1 loop /snap/gnome-3-34-1804/36
+loop5    7:5    0  49.8M  1 loop /snap/snap-store/433
+loop6    7:6    0  29.9M  1 loop /snap/snapd/8542
+loop7    7:7    0  29.8M  1 loop /snap/snapd/8140
+loop8    7:8    0  49.8M  1 loop /snap/snap-store/467
+loop9    7:9    0         0 loop 
+sda      8:0    0   100G  0 disk 
+├─sda1   8:1    0   5.1G  0 part [SWAP]
+├─sda2   8:2    0     1K  0 part 
+└─sda5   8:5    0  94.9G  0 part /
+sr0     11:0    1  1024M  0 rom  
+
+## USB list
+
+
+Bus 001 Device 002: ID 80ee:0021 VirtualBox USB Tablet
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x80ee VirtualBox
+  idProduct          0x0021 USB Tablet
+  bcdDevice            1.00
+  iManufacturer           1 VirtualBox
+  iProduct                3 USB Tablet
+  iSerial                 0 
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0022
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      85
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.04
+  iManufacturer           3 Linux 5.4.0-42-generic ohci_hcd
+  iProduct                2 OHCI PCI host controller
+  iSerial                 1 0000:00:06.0
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength              11
+  bDescriptorType      41
+  nNbrPorts            12
+  wHubCharacteristic 0x0002
+    No power switching (usb 1.0)
+    Ganged overcurrent protection
+  bPwrOn2PwrGood        0 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00 0x00
+  PortPwrCtrlMask    0xff 0xff
+ Hub Port Status:
+   Port 1: 0000.0103 power enable connect
+   Port 2: 0000.0100 power
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+   Port 7: 0000.0100 power
+   Port 8: 0000.0100 power
+   Port 9: 0000.0100 power
+   Port 10: 0000.0100 power
+   Port 11: 0000.0100 power
+   Port 12: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+## PCI sockets in tree form
+
+-[0000:00]-+-00.0
+           +-01.0
+           +-01.1
+           +-02.0
+           +-03.0
+           +-04.0
+           +-05.0
+           +-06.0
+           +-07.0
+           \-0d.0
+
+## PCI sockets in dtails
+
+Slot:	00:00.0
+Class:	Host bridge
+Vendor:	Intel Corporation
+Device:	440FX - 82441FX PMC [Natoma]
+Rev:	02
+
+Slot:	00:01.0
+Class:	ISA bridge
+Vendor:	Intel Corporation
+Device:	82371SB PIIX3 ISA [Natoma/Triton II]
+
+Slot:	00:01.1
+Class:	IDE interface
+Vendor:	Intel Corporation
+Device:	82371AB/EB/MB PIIX4 IDE
+Rev:	01
+ProgIf:	8a
+
+Slot:	00:02.0
+Class:	VGA compatible controller
+Vendor:	VMware
+Device:	SVGA II Adapter
+SVendor:	VMware
+SDevice:	SVGA II Adapter
+
+Slot:	00:03.0
+Class:	Ethernet controller
+Vendor:	Intel Corporation
+Device:	82540EM Gigabit Ethernet Controller
+SVendor:	Intel Corporation
+SDevice:	PRO/1000 MT Desktop Adapter
+Rev:	02
+
+Slot:	00:04.0
+Class:	System peripheral
+Vendor:	InnoTek Systemberatung GmbH
+Device:	VirtualBox Guest Service
+
+Slot:	00:05.0
+Class:	Multimedia audio controller
+Vendor:	Intel Corporation
+Device:	82801AA AC'97 Audio Controller
+SVendor:	Dell
+SDevice:	82801AA AC'97 Audio Controller
+Rev:	01
+
+Slot:	00:06.0
+Class:	USB controller
+Vendor:	Apple Inc.
+Device:	KeyLargo/Intrepid USB
+ProgIf:	10
+
+Slot:	00:07.0
+Class:	Bridge
+Vendor:	Intel Corporation
+Device:	82371AB/EB/MB PIIX4 ACPI
+Rev:	08
+
+Slot:	00:0d.0
+Class:	SATA controller
+Vendor:	Intel Corporation
+Device:	82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]
+Rev:	02
+ProgIf:	01
+
+
+## Hard Drive
+
+[1:0:0:0]    cd/dvd  VBOX     CD-ROM           1.0   /dev/sr0        -
+[2:0:0:0]    disk    ATA      VBOX HARDDISK    1.0   /dev/sda    107GB
+
