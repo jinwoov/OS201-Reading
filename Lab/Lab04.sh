@@ -42,4 +42,6 @@ TOTEXTFILE lsscsi "Hard Drive" -s
 ## Renaming the file to add BIOS
 mv $FILE "system-report-BIOS.txt"
 
+libreoffice --writer ./system-report-BIOS.txt
+
 # END
