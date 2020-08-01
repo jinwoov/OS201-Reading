@@ -1,0 +1,8 @@
+This is what we have in the folder
+StarWars.tar
+This is what we have in the tar file
+DeathStar.txt
+Extracting the file...
+Here is outcome
+DeathStar.txt
+StarWars.tar
