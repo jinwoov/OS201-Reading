@@ -1,0 +1,13 @@
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.csprojAssemblyReference.cache
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.AssemblyInfoInputs.cache
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.AssemblyInfo.cs
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.csproj.CoreCompileInputs.cache
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.exe
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.deps.json
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.runtimeconfig.json
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.runtimeconfig.dev.json
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.dll
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\bin\Debug\netcoreapp3.1\powershell spec.pdb
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.dll
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.pdb
+C:\Users\IEUser\codefellows\OS201-Reading\Personal\powershell\obj\Debug\netcoreapp3.1\powershell spec.genruntimeconfig.cache
