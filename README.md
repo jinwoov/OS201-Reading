@@ -15,3 +15,4 @@
 [5. Reading: The Best Tools to Easily Perform Remote Tech Support](./Reading/Reading5.md)  
 [6. Reading: Windows Command Line & Powershell](./Reading/Reading6.md)  
 [7. Reading: System Log Analysis](./Reading/Reading7.md)  
+[8. Reading: Workstation Configuration](./Reading/Reading8.md)  

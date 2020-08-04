@@ -1,0 +1,41 @@
+# Infrastructure as code
+- automate, you can deploy and 
+- building your application on kubernettes
+- decide to use VM 
+- to connect you need vpc for k8s and vm
+- infrastructure as code
+    - `imperative` is like step by step 
+        - cli or bash script
+        - cli create k8s
+        - cli create VM
+        - cli create VPC
+        - provides step-by-step 
+        - using the cloud tool to step by step
+        - multiple approach
+    - `declarative` approach
+        - terraform: final state and the terraform does work for you
+        - define k8s resource, vm resource, vpc resource
+        - manage through config
+        - easily manage
+        - end up with same infrastructure
+- Dev-ops
+    - write some code
+    - test 
+    - then push it into production
+    - always working
+    - versioning is easier
+    - best approach for automation
+- immutable: can't be change.
+    - need a database.
+    - all of the environment 
+    - every time you want to make versioning, you bring in old one along with new environment, then you can bring down the old one
+
+
+## Dockers
+- Docker allows you to have air tight and wrap up the code and portability is key to docker
+- Variable is going to work exactly like current machine
+- Allows you to create a container. 
+- Client side application
+- Design the container for you
+- Can be deploy anywhere
+- 
