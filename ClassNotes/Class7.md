@@ -12,3 +12,6 @@ error is a event that caused critical problem to your system
 warning is not significantly affective but will cause problem later on
 
 sucess audit, is a when it it was successful
+
+- information means things succeeding
+- 

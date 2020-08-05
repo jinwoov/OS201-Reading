@@ -17,3 +17,4 @@
 [7. Reading: System Log Analysis](./Reading/Reading7.md)  
 [8. Reading: Workstation Configuration](./Reading/Reading8.md)  
 [9. Reading: Imaging, Backup, and Recovery](./Reading/Reading9.md)  
+[10. Reading: Data Repair and Disposal](./Reading/Reading10.md)  
