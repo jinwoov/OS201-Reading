@@ -1,7 +1,7 @@
 # Script Name: Lab 8
 # Author: Jin Kim
 # Date of Last revision: 08/05/2020
-# Description of purpose: To output system specification to text file and condense it using select-string method.
+# Description of purpose: To output event logs that using Powershell commands. Utilizing built-in filtering to select specific infromation needed.
 
 # DECLARATION OF VARIABLES
 ## This is grab current username and assigning it to the variable
@@ -35,7 +35,7 @@ Just getting the event that has error tag
 #>
 function TypeError()
 {
-    Sleeping("events type that has Error tag")
+    Sleeping("events type that has Error tags")
     $justError | fl * | Out-File $errorFile
 }
 <#
@@ -44,6 +44,7 @@ Filtering events by ID 16 and output it to the console
 #>
 function EventIdFilter()
 {
+    PromptUser
     WriteGreen("This is filtered by event ID")
     $eventID | fl *
 }
@@ -75,7 +76,7 @@ Prompting user that output can be overbearing
 #>
 function PromptUser()
 {
-    Read-Host "There will be a lot of output are you ready? Press any key"
+    Read-Host -Prompt "There will be a lot of output are you ready? Press Enter"
     Clear-Host
 }
 <#
@@ -93,10 +94,10 @@ Sleep method that will pause system to give more realistic feel to the applicati
 #>
 function Sleeping($s)
 {
-    Write-Host "Current generating $s"
+    Write-Host "Currently generating $s"
     #To pause for 1.5 second
     Start-Sleep -m 2000
-    Write-Host "Finish"
+    Write-Host "Finished"
     Start-Sleep -m 1000
 }
 
