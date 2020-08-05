@@ -21,3 +21,16 @@ Get-EventLog -LogName Application -Source Outlook | Where-Object {$_.EventID -eq
 ```
 DCOM error happens very frequently
 
+Standard operation policy (SOP)
+
+- They can rely on SOP and refer how to operate
+- You can have contructive communication
+- SOP can be a thing where guide line to the business
+- SOP can be written poorly
+- Communication can be deal breaker
+- Acceptable use policy: Expectation on how to use things
+- Cybersecurity policy: minimal pw complexity, multi factor auth
+- SOP: What, when and why
+    - new hire, new employee, what they need to perform
+    - Each computer config can be different
+    - 
