@@ -102,7 +102,6 @@ function Sleeping($s)
 }
 
 # MAIN
-Set-ExecutionPolicy 1 -Force
 TwentyFourHour
 TypeError
 EventIdFilter
