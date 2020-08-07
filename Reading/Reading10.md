@@ -27,3 +27,10 @@
     - Download and use free software to monitor SSD health
     - Find SSD with S.M.A.R.T. (Self, monitoring, analysis, and reporting technology) that warns user of potential failure.
     - Have a backup plan to regularly backup important files and drives.
+
+- DISM
+
+- manual destruction is one method to destory the
+- degausing is a technique that uses magnetice field to delete what is in it
+- sanitization is way to delete and keep it
+- dban 
