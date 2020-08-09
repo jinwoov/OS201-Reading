@@ -22,4 +22,13 @@
 
 - Steps from server to the client
      1. When the server gets the request, it first convert it to a packet and add the `Application Layer` header
-     2. This protocols include HTTP (this provides web document request and transfer), SMTP(which provides for transfer of e-mail messages), 
+     2. This protocols include HTTP (this provides web document request and transfer), SMTP(which provides for transfer of e-mail messages), FTP(for the transfer of file between two end systems).
+     3. Then, transfer layer protocol adds the necessary changes.
+        - This then gets transports application-layer messages between application endpoints.
+    4. The common transport layer protocol are TCP(connection-oriented service to its application), and UDP(which provides connection-less services to its application).
+    5. The network-layer kicks in and move network layer packets or datagrams from one host to another.
+    6. Finally, the Network Access Layer takes care of the transfer across the communication links.
+    7. Once the server gets the package, the entire process takes place in reverse(bottom-up) to transform the packet back to the original image.
+
+- Data Transformation Between End Systems
+![Data transformation](https://miro.medium.com/max/1000/1*Xjta_Ion8TaUtRnRTGFuoA.png)
