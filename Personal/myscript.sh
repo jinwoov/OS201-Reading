@@ -100,7 +100,7 @@ case "$ANSWER" in
 esac
 
 ## SIMPLE FOR Loop
-NAMES="Jin Ally Mochi Kudo"
+NAMES="Jin Mochi Kudo"
 for NAME in $NAMES
     do
         echo "Hello $NAME"
@@ -144,3 +144,5 @@ mkdir Hello
 touch "hello/world.txt"
 echo "Hello World" >> "hello/world.txt"
 echo "Created hello/world.txt"
+
+# https://www.youtube.com/watch?v=v-F3YLd6oMw
