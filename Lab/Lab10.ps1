@@ -57,7 +57,6 @@ function BackupDifComp()
     Copy-Item "DeathStar.txt" "\\MSEDGEWIN10\Users\IEUser\Desktop\";
     Robocopy ".\Robot" "\\MSEDGEWIN10\Users\IEUser\Desktop\Robot";
     Compress-Archive -Path ".\Robot" "\\MSEDGEWIN10\Users\IEUser\Desktop\Robot.zip";
-
 }
 
 
