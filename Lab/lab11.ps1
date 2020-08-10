@@ -6,7 +6,7 @@
 # DECLARATION OF VARIABLES
 $savefile = "./network_report.txt";
 $Loopback = "127.0.0.1";
-$Google = "google.com";
+$GoogleAd = "google.com";
 # DECLARATION OF FUNCTIONS
 
 <#
@@ -76,5 +76,5 @@ SaveIPconfig;
 GrabIPFour
 RemoveTextFile
 CheckPackets($Loopback);
-CheckPackets($Google);
+CheckPackets($GoogleAd);
 # END
