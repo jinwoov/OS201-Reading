@@ -52,5 +52,3 @@
     7. Multi tenancy and physical security
     8. Incident analysis and security
     9. Infrastructure security
-
--
