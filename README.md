@@ -24,3 +24,4 @@
 [10. Reading: Data Repair and Disposal](./Reading/Reading10.md)  
 [11. DD-WRT Router Firmware](./Reading/Reading11.md)  
 [12. Networking, Ports, & Wi-fi](./Reading/Reading12.md)  
+[13. Virtual Networking with GNS3](./Reading/Reading13.md)  

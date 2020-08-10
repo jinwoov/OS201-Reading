@@ -32,3 +32,31 @@
 
 - Data Transformation Between End Systems
 ![Data transformation](https://miro.medium.com/max/1000/1*Xjta_Ion8TaUtRnRTGFuoA.png)
+
+
+## Introduction to Networking | Network Fundamentals Part 1
+
+- You connect all the device through the internet
+- You can perform multiple tasks.
+- One way is to connect through switch to connect other device
+- `Patch panel` is connected to the device either by the wall or in the cabinet
+- Then the `patch panel` connects to the switch
+- Most home is connects directly to the switch
+- Another way to connect device is through wireless
+- Access point is like switch
+- They agree on how the process is going to be same
+    - This is called protocols
+- To share the information devices needs to speak same language it is called `protocol`
+- What are the two way that devices can connect to each other.
+- Nodes includes devices that help control traffic flow into a network like switches and router
+- Also, includes endpoint and host
+- The network that is performing at home is called SoHo network.
+- Switches and Hubs are different
+- Hubs are really old 
+- Router is used to connect to the internet
+- Business has many station like this
+- Internet business has many of the service providers
+- When devices are connected to one network this is called LAN
+- Lan can be disperse to each floor. And they can connect together at the end
+- WAN (wide area network)
+- Service provider can be connected with far apart devices.
