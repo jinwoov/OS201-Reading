@@ -97,5 +97,7 @@ CompressCopy;
 ## Part 2
 Read-Host -Prompt "Finished local backup? ready for backup on different computer?";
 BackupDifComp;
+## Stretch Goal
+DecompressZip;
 #END
 
