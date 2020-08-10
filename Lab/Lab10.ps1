@@ -58,6 +58,16 @@ function BackupDifComp()
     Robocopy ".\Robot" "\\MSEDGEWIN10\Users\IEUser\Desktop\Robot";
     Compress-Archive -Path ".\Robot" "\\MSEDGEWIN10\Users\IEUser\Desktop\Robot.zip";
 }
+<#
+.Description
+Data restoration function where you take the zip file from other computer and unzip it local machine
+#>
+function DecompressZip()
+{
+    Header("Decompressing file to the desktop");
+    WaitProcess;
+    Expand-Archive -Path "\\MSEDGEWIN10\Users\IEUser\Desktop\Robot.zip" -DestinationPath "$ComputerDesk\newFolder"
+}
 
 
 ###################

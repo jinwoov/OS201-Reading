@@ -4,7 +4,6 @@
 # Description of purpose: To create a file/folder/zip file and copy it over to the desktop. And using the same logic to other remote computer.
 
 # DECLARATION OF VARIABLES
-ipconfig /all | Out
 # DECLARATION OF FUNCTIONS
 
 # MAIN
@@ -13,4 +12,4 @@ ipconfig /all | Out
 ipconfig /all | Out-File "./network_report.txt"
 $ourfilesdata = Get-Content "./network_report.txt"
 $ourfilesdata | Select-String IPv4;
-rm "./network_report.txt";
+Remove-Item "./network_report.txt";
