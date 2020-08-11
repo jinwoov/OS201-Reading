@@ -12,4 +12,10 @@ electrical cable -> mac address - blanking lights, LLC, switches -> TCP/IP proto
 
 UDP: persistent stream of data on/off
 
-![]
+ubiquity has same configuration as sonicwall
+
+
+tx = tranfer
+rx = receives
+client = user of the system
+server = host of the system

@@ -12,7 +12,7 @@ TEXTFILE="./single.txt";
 USERINPUT() 
 {
     HEADER "Here is an information about $1"
-    whois $1;
+    whois $1 | awk '/Domain Name/,/DNSSEC/';
 }
 
 ## To lookup DNS inormation
@@ -41,9 +41,11 @@ NSLOOKUP()
 
 HEADER()
 {
+    echo;
     echo "###########################################";
     echo "  $1  ";
     echo "###########################################";
+    echo;
 }
 
 SLEEPER()
