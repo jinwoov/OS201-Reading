@@ -54,7 +54,7 @@ read -p "What site do you want to search?  " DOMAIN;
 USERINPUT $DOMAIN | tee $TEXTFILE;
 DIGGINGINFO $DOMAIN | tee -a $TEXTFILE;
 HOSTINFORMATION $DOMAIN | tee -a $TEXTFILE;
-## STRETCH GOAL ##
 NSLOOKUP $DOMAIN | tee -a $TEXTFILE;
+cat $TEXTFILE;
 
 # END
