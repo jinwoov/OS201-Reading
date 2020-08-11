@@ -48,12 +48,6 @@ HEADER()
     echo;
 }
 
-SLEEPER()
-{
-    sleep 2s;
-}
-
-
 # MAIN
 
 read -p "What site do you want to search?  " DOMAIN;
