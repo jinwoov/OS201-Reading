@@ -24,7 +24,7 @@ DIGGINGINFO()
 
 ## To see ip addresses and mail hosting addresses.
 HOSTINFORMATION()
-{
+{|
     HEADER "Here is an host info about $1"
     host $1;
 }

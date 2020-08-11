@@ -1,0 +1,8 @@
+	# gawk profile, created Tue Aug 11 14:46:20 2020
+
+	# Rule(s)
+
+	{
+		print $4
+	}
+
